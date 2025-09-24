@@ -81,8 +81,11 @@
 }
 .logo {
     font-size: 80px;
-    font-weight: 600;
+    font-weight: 520;
     color: rgb(232, 232, 232);
+}
+.logo img {
+    max-height: 6.5rem;
 }
 .search-box {
     margin-top: 20px;
@@ -97,9 +100,6 @@
     margin-left: auto;
     margin-right: auto;
     display: flex;
-}
-.search_ico {
-
 }
 .search-box input {
     background: transparent;
@@ -142,6 +142,9 @@ a {
     width: 25px;
     height: 25px;
 }
+.search_ico svg {
+    cursor: pointer;
+}
 .cam_ico {
     margin-left: 12px;
 }
@@ -177,7 +180,6 @@ a {
     display: flex;
     justify-content: space-between;
 }
-
 
 
 
