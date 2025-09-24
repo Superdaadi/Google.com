@@ -36,6 +36,7 @@ export class LoginComponent {
     } else {
       // Step 2: Passwort Eingabe (hier könnte man Backend-Check machen)
       if (this.password.trim()) {
+        localStorage.setItem('loggedIn', 'true');
         this.router.navigate(['']);
       } else {
         this.errorMsg = 'Please enter your password';
